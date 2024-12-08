@@ -16,4 +16,4 @@ Esta versión agrega la funcionalidad para obtener un producto específico de la
 #### Ejemplo de Respuesta
 **Request:**
 ```http
-GET /productos/1
+GET /products/1
