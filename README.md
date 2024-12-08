@@ -26,12 +26,10 @@ Esta versión permite la creación de productos desde Thunder Client y su almace
 - **POST** `https://localhost:4000/api/products`: Permite crear un nuevo producto.
 
 #### Ejemplo de Body:
-```json
-{
     "name": "Producto de Ejemplo", VALIDA QUE LA ENTRADA NO SEA NULA
     "price": 50, VALIDA QUE SEA UN NUMERO Y ESTE SEA POSITIVO
     "availability": true, EL VALOR SEA TRUE SI ES QUE NO SE ASIGNA UNO A LA DISPONIBILIDAD
-}
+
 
 ### Versión 0.3.0 - Obtener Productos por ID
 
@@ -48,7 +46,6 @@ Esta versión agrega la funcionalidad para obtener un producto específico de la
 
 #### Ejemplo de Respuesta
 **Request:**
-```http
 GET /products/1
 
 ### Versión 0.4.0 - Actualizar y Eliminar Productos
