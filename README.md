@@ -1,4 +1,4 @@
-## Versión 2.0.0 - Crear Productos
+## Versión 0.2.0 - Crear Productos
 
 ### Descripción
 Esta versión permite la creación de productos desde Thunder Client y su almacenamiento en la base de datos.
