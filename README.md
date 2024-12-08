@@ -12,13 +12,6 @@ Esta versión introduce el testing para los endpoints del proyecto, utilizando h
 #### 1. Probando una URL con Supertest
 - **Descripción:** Validar que la API responde correctamente a una URL específica.
 - **Prueba:** Verifica que el servidor responde con un código 200 al acceder a la raíz de la API (`/`).
-- **Ejemplo:**
-  ```javascript
-  test('La URL principal debe responder con un código 200', async () => {
-      const response = await request(app).get('/');
-      expect(response.status).toBe(200);
-  });
-## Pruebas Realizadas
 
 ### 2. Probando el Endpoint de Crear Producto
 - **Descripción:** Valida que el endpoint `POST /productos` crea un producto correctamente.
