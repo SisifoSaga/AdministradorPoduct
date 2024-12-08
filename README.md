@@ -1,6 +1,6 @@
 # Proyecto Full Stack con PERN (Administrador de Productos)
 
-## Versión 1.0.0 - Configuración Inicial
+## Versión 0.1.0 - Configuración Inicial
 
 ### Descripción
 Esta versión incluye la configuración inicial del proyecto y la implementación de la base de datos:
